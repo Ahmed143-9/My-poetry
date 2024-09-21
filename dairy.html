@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>K-World Poem Diary</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .post-container {
+            max-width: 700px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .like-btn {
+            cursor: pointer;
+        }
+
+        .like-count {
+            margin-left: 10px;
+        }
+
+        .comment-section {
+            margin-top: 20px;
+        }
+
+        .comment-box {
+            margin-top: 10px;
+        }
+
+        .posted-comments {
+            margin-top: 20px;
+        }
+
+        .comment-item {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Poem Post Display Section -->
+    <div class="container post-container">
+        <h3 class="text-center mb-4">মৃত্যু আমাদের...</h3>
+
+        <!-- Section to display the posts, likes, and comments -->
+        <section class="mt-5" id="postedPoemSection">
+            <!-- Static Example of a Poem Post -->
+            <div class="card my-4">
+                <div class="card-body">
+                    <h5 class="card-title">Nature's Melody</h5>
+                    <p>
+                        কারুকার্যের মতো করুন... <br>
+                        কবিতার মতো কৃপন। <br>
+                        অসুখের মতো আপন। <br>
+                        প্রতিক্ষার মতো পতন। <br>
+                        আনন্দের মতো আলোচিত। <br>
+                        অনুতাপের মতো অপ্রাকৃতিক। <br>
+                        জীবনের মতো যন্ত্রণা।  <br>
+                        সকলের মতো শান্তনা। <br>
+                        নবিনের মতো নিপুন। <br>
+                        ভরসার মতো ভিষন। <br>
+                        আমার মতো আপন। <br>
+                        তোমার মতো তরুণ। <br>
+                        কাওসার আহমেদ</p>
+                    <div class="d-flex align-items-center">
+                        <span class="like-btn text-primary">❤️ Like</span>
+                        <span class="like-count">0 likes</span>
+                    </div>
+                    <div class="comment-section">
+                        <h6>Comments</h6>
+                        <textarea class="form-control comment-box" rows="2" placeholder="Add a comment..."></textarea>
+                        <button class="btn btn-sm btn-primary mt-2 comment-btn">Post Comment</button>
+                        <div class="posted-comments"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+   
+     <!-- Poem Post Display Section -->
+     <div class="container post-container">
+        <h3 class="text-center mb-4">একটা অবাস্তব ক্লান্ত জীবন</h3>
+
+        <!-- Section to display the posts, likes, and comments -->
+        <section class="mt-5" id="postedPoemSection">
+            <!-- Static Example of a Poem Post -->
+            <div class="card my-4">
+                <div class="card-body">
+                    
+                        <h5 class="card-title">Nature's Melody</h5>
+                        <p>
+                        একটা অবাস্তব ক্লান্ত জীবন। <br>
+                        সারমেয়র মতো ক্লান্ত!  <br>
+                        জীভে জল নেই;প্রচুর লালা। <br>
+                        পিচ্ছিল উপমায় সস্তা স্বপন। <br>
+                        অল্প আয়ুর অযুহাতে,কয়েদি জীবন। <br>
+                        ব্যস্ত সস্তা সুখে,সব অবাস্তব আপণ। <br>
+                        কেউ স্রষ্টার মতো সৃষ্টি নয়; <br>
+                        সবাই কেমন নিজের মতো কৃপণ। <br>
+                        একা থাকার আয়োজনে আসক্ত এক কবর। <br>
+                        অপেক্ষা ছুড়ে বসে আছে তোমার। <br>
+                        সেদিন তুমিও সবার পর, <br>
+                        আপণ সেজে বসে থাকা অসুখ; <br>
+                        সেদিন সারাতে বসবে এক অবান্তর আসর। <br>
+                        সবার আড়ালে সেদিন তুমি, <br>
+                        নিজের মতো করে। <br>
+                        ধীরে ধীরে আসবে ফিরে, <br>
+                        দেখা পাবে আসল বাস্তবতার। <br>
+                        এক মৃত মোলায়েম যাত্রার আয়োজন। <br>
+                        তুমি তখন মানুষের মতো মসৃণ। <br>
+                        এখন তবে আসক্ত এক পথিক, <br>
+                        তুমি ছাড়া তুমি,বাকি সবার প্রয়োজন! <br>
+                        কাওসার আহমেদ।
+                        </p>
+                    <div class="d-flex align-items-center">
+                        <span class="like-btn text-primary">❤️ Like</span>
+                        <span class="like-count">0 likes</span>
+                    </div>
+                    <div class="comment-section">
+                        <h6>Comments</h6>
+                        <textarea class="form-control comment-box" rows="2" placeholder="Add a comment..."></textarea>
+                        <button class="btn btn-sm btn-primary mt-2 comment-btn">Post Comment</button>
+                        <div class="posted-comments"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+     <!-- Poem Post Display Section -->
+     <div class="container post-container">
+        <h3 class="text-center mb-4">হাজার বছর বেঁচে থাকুক।</h3>
+
+        <!-- Section to display the posts, likes, and comments -->
+        <section class="mt-5" id="postedPoemSection">
+            <!-- Static Example of a Poem Post -->
+            <div class="card my-4">
+                <div class="card-body">
+                    <h5 class="card-title">Nature's Melody</h5>
+                    <p class="card-text">হাজার বছর বেঁচে থাকুক।
+                        ফসিলের মতো ইতিহাস হয়ে;
+                        লোকালয়ে বারবার ফিরে আসুক।
+                        চারণভূমির ঘাসের ঢগার মুক্তা হয়ে;
+                        পাড়ছাড়া এক অর্ধ ঢাকা শরীর নিয়ে,
+                        শাড়ি শরীরে যুদ্ধ করে!
+                        এমন ভিষণ অভাবী এক কৃষাণ ঘরে।
+                        পর পুরুষে আড়াল করা,সদ্য শরীর।
+                        ধর্মের বারণ না,এ আড়াল লজ্জার!
+                        খালি পা, ঢেউ খেলে যায় খোলায়;
+                        ধানের গায়ে আঁচড়ে পড়ে রোদ।
+                        আবৃত গা,অনাবৃত অনার্য হতে চায়;
+                        সন্ধ্যায় সঙ্গী খোজে রোজ।
+                        এমন কোনো সাঝ বাতিতে,
+                        চঞ্চল এক হাওয়া লেগে;
+                        যদি হারিয়ে ফেলো আলো।
+                        ভয় না পেয়ে আকাশ পানে চেও!
+                        চাঁদ না হলেও তারা হবো নিশ্চয়;
+                        অথবা বৈশাখের মরুকরণ বাতাস।
+                        মরে গেলে কে কি হয় কে জানে!
+                        আমাকে হতে দিও ইতিহাস।
+                        কাওসার আহমেদ
+                        </p>
+                    <div class="d-flex align-items-center">
+                        <span class="like-btn text-primary">❤️ Like</span>
+                        <span class="like-count">0 likes</span>
+                    </div>
+                    <div class="comment-section">
+                        <h6>Comments</h6>
+                        <textarea class="form-control comment-box" rows="2" placeholder="Add a comment..."></textarea>
+                        <button class="btn btn-sm btn-primary mt-2 comment-btn">Post Comment</button>
+                        <div class="posted-comments"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+ <!-- Poem Post Display Section -->
+ <div class="container post-container">
+    <h3 class="text-center mb-4">My Poem Diary</h3>
+
+    <!-- Section to display the posts, likes, and comments -->
+    <section class="mt-5" id="postedPoemSection">
+        <!-- Static Example of a Poem Post -->
+        <div class="card my-4">
+            <div class="card-body">
+                <h5 class="card-title">Nature's Melody</h5>
+                <p class="card-text">The birds sing their morning song,<br>
+                    The trees sway as the wind moves along.<br>
+                    Nature hums a quiet lullaby,<br>
+                    Underneath the azure sky.</p>
+                <div class="d-flex align-items-center">
+                    <span class="like-btn text-primary">❤️ Like</span>
+                    <span class="like-count">0 likes</span>
+                </div>
+                <div class="comment-section">
+                    <h6>Comments</h6>
+                    <textarea class="form-control comment-box" rows="2" placeholder="Add a comment..."></textarea>
+                    <button class="btn btn-sm btn-primary mt-2 comment-btn">Post Comment</button>
+                    <div class="posted-comments"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+
+ <!-- Poem Post Display Section -->
+ <div class="container post-container">
+    <h3 class="text-center mb-4">My Poem Diary</h3>
+
+    <!-- Section to display the posts, likes, and comments -->
+    <section class="mt-5" id="postedPoemSection">
+        <!-- Static Example of a Poem Post -->
+        <div class="card my-4">
+            <div class="card-body">
+                <h5 class="card-title">Nature's Melody</h5>
+                <p class="card-text">The birds sing their morning song,<br>
+                    The trees sway as the wind moves along.<br>
+                    Nature hums a quiet lullaby,<br>
+                    Underneath the azure sky.</p>
+                <div class="d-flex align-items-center">
+                    <span class="like-btn text-primary">❤️ Like</span>
+                    <span class="like-count">0 likes</span>
+                </div>
+                <div class="comment-section">
+                    <h6>Comments</h6>
+                    <textarea class="form-control comment-box" rows="2" placeholder="Add a comment..."></textarea>
+                    <button class="btn btn-sm btn-primary mt-2 comment-btn">Post Comment</button>
+                    <div class="posted-comments"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+
+ <!-- Poem Post Display Section -->
+ <div class="container post-container">
+    <h3 class="text-center mb-4">My Poem Diary</h3>
+
+    <!-- Section to display the posts, likes, and comments -->
+    <section class="mt-5" id="postedPoemSection">
+        <!-- Static Example of a Poem Post -->
+        <div class="card my-4">
+            <div class="card-body">
+                <h5 class="card-title">Nature's Melody</h5>
+                <p class="card-text">The birds sing their morning song,<br>
+                    The trees sway as the wind moves along.<br>
+                    Nature hums a quiet lullaby,<br>
+                    Underneath the azure sky.</p>
+                <div class="d-flex align-items-center">
+                    <span class="like-btn text-primary">❤️ Like</span>
+                    <span class="like-count">0 likes</span>
+                </div>
+                <div class="comment-section">
+                    <h6>Comments</h6>
+                    <textarea class="form-control comment-box" rows="2" placeholder="Add a comment..."></textarea>
+                    <button class="btn btn-sm btn-primary mt-2 comment-btn">Post Comment</button>
+                    <div class="posted-comments"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+
+
+ <!-- Poem Post Display Section -->
+ <div class="container post-container">
+    <h3 class="text-center mb-4">My Poem Diary</h3>
+
+    <!-- Section to display the posts, likes, and comments -->
+    <section class="mt-5" id="postedPoemSection">
+        <!-- Static Example of a Poem Post -->
+        <div class="card my-4">
+            <div class="card-body">
+                <h5 class="card-title">Nature's Melody</h5>
+                <p class="card-text">The birds sing their morning song,<br>
+                    The trees sway as the wind moves along.<br>
+                    Nature hums a quiet lullaby,<br>
+                    Underneath the azure sky.</p>
+                <div class="d-flex align-items-center">
+                    <span class="like-btn text-primary">❤️ Like</span>
+                    <span class="like-count">0 likes</span>
+                </div>
+                <div class="comment-section">
+                    <h6>Comments</h6>
+                    <textarea class="form-control comment-box" rows="2" placeholder="Add a comment..."></textarea>
+                    <button class="btn btn-sm btn-primary mt-2 comment-btn">Post Comment</button>
+                    <div class="posted-comments"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+
+ <!-- Poem Post Display Section -->
+ <div class="container post-container">
+    <h3 class="text-center mb-4">My Poem Diary</h3>
+
+    <!-- Section to display the posts, likes, and comments -->
+    <section class="mt-5" id="postedPoemSection">
+        <!-- Static Example of a Poem Post -->
+        <div class="card my-4">
+            <div class="card-body">
+                <h5 class="card-title">Nature's Melody</h5>
+                <p class="card-text">The birds sing their morning song,<br>
+                    The trees sway as the wind moves along.<br>
+                    Nature hums a quiet lullaby,<br>
+                    Underneath the azure sky.</p>
+                <div class="d-flex align-items-center">
+                    <span class="like-btn text-primary">❤️ Like</span>
+                    <span class="like-count">0 likes</span>
+                </div>
+                <div class="comment-section">
+                    <h6>Comments</h6>
+                    <textarea class="form-control comment-box" rows="2" placeholder="Add a comment..."></textarea>
+                    <button class="btn btn-sm btn-primary mt-2 comment-btn">Post Comment</button>
+                    <div class="posted-comments"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+
+ <!-- Poem Post Display Section -->
+ <div class="container post-container">
+    <h3 class="text-center mb-4">My Poem Diary</h3>
+
+    <!-- Section to display the posts, likes, and comments -->
+    <section class="mt-5" id="postedPoemSection">
+        <!-- Static Example of a Poem Post -->
+        <div class="card my-4">
+            <div class="card-body">
+                <h5 class="card-title">Nature's Melody</h5>
+                <p class="card-text">The birds sing their morning song,<br>
+                    The trees sway as the wind moves along.<br>
+                    Nature hums a quiet lullaby,<br>
+                    Underneath the azure sky.</p>
+                <div class="d-flex align-items-center">
+                    <span class="like-btn text-primary">❤️ Like</span>
+                    <span class="like-count">0 likes</span>
+                </div>
+                <div class="comment-section">
+                    <h6>Comments</h6>
+                    <textarea class="form-control comment-box" rows="2" placeholder="Add a comment..."></textarea>
+                    <button class="btn btn-sm btn-primary mt-2 comment-btn">Post Comment</button>
+                    <div class="posted-comments"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JavaScript to handle likes and comments -->
+    <script>
+        // Like button functionality
+        const likeBtn = document.querySelector('.like-btn');
+        const likeCount = document.querySelector('.like-count');
+        let likes = 0;
+
+        likeBtn.addEventListener('click', () => {
+            likes++;
+            likeCount.textContent = `${likes} likes`;
+        });
+
+        // Comment functionality
+        const commentBox = document.querySelector('.comment-box');
+        const commentBtn = document.querySelector('.comment-btn');
+        const postedComments = document.querySelector('.posted-comments');
+
+        commentBtn.addEventListener('click', () => {
+            const commentText = commentBox.value;
+            if (commentText) {
+                const commentItem = document.createElement('div');
+                commentItem.classList.add('comment-item');
+                commentItem.innerHTML = `<strong>User:</strong> ${commentText}`;
+                postedComments.appendChild(commentItem);
+                commentBox.value = ''; // Clear comment box after posting
+            }
+        });
+    </script>
+
+</body>
+
+</html>
